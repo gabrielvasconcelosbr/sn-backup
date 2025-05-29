@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca18bee5836522100f505cc0deaad3fd" extends="sys_user" label="Alunos" max_length="40" name="x_1765043_unit_alunos" type="collection">
+        <element choice="1" label="Período " max_length="40" name="periodo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3° Período" sequence="3" value="3_periodo"/>
+                <element inactive_on_update="false" label="1° Período" sequence="1" value="1_periodo"/>
+                <element inactive_on_update="false" label="7° Período" sequence="7" value="7_periodo"/>
+                <element inactive_on_update="false" label="6° Período" sequence="6" value="6_periodo"/>
+                <element inactive_on_update="false" label="2° Período" sequence="2" value="2_periodo"/>
+                <element inactive_on_update="false" label="5° Período" sequence="5" value="5_periodo"/>
+                <element inactive_on_update="false" label="8° Período" sequence="8" value="8_periodo"/>
+                <element inactive_on_update="false" label="4° Período" sequence="4" value="4_periodo"/>
+            </choice>
+        </element>
+        <element choice="1" label="Ênfase" max_length="40" name="enfase" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inteligência Artificial"/>
+                <element inactive_on_update="false" label="Desenvolvimento Web"/>
+                <element inactive_on_update="false" label="Data Science"/>
+                <element inactive_on_update="false" label="Segurança da Informação"/>
+            </choice>
+        </element>
+        <element choice="1" label="Turno" max_length="40" name="turno" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Noite" sequence="3" value="noite"/>
+                <element inactive_on_update="false" label="Manhã" sequence="1" value="manha"/>
+                <element inactive_on_update="false" label="Tarde" sequence="2" value="tarde"/>
+            </choice>
+        </element>
+        <element label="Data de Matrícula" max_length="40" name="data_de_matricula" type="glide_date"/>
+        <element label="Nome" max_length="100" name="nome" type="string"/>
+        <element label="Data de Formação" max_length="40" name="data_de_formacao" type="glide_date"/>
+        <element label="Data de Nascimento" max_length="40" name="data_de_nascimento" type="glide_date"/>
+        <element label="Ativo" max_length="40" name="ativo" type="boolean"/>
+    </element>
+</database>

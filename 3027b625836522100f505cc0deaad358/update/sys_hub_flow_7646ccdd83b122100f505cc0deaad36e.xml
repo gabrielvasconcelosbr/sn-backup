@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>processo_de_matrcula_em_cadeira_acadmica</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação de serviços acadêmicos Record","reference":"x_1765043_unit_solicita_o_de_servi_os_acad_micos","reference_display":"Solicitação de serviços acadêmicos","type":"reference","base_type":"reference","usedInstances":{"85542574-d9c4-4fc6-a9c0-94b20909327b":["record"],"f2093d8a-5fa8-4073-8647-281e39189263":["record"],"a8a44c6c-c12c-4d6e-9c25-1c795190f22f":["record"],"02c0152b-b6af-44e1-84a0-1c5eebcbff27":["x_1765043_unit_alunos","x_1765043_unit_cadeiras"],"6dc0434b-abb9-4cbf-b9a5-596d84744cd7":["record"],"db0b9f81-1083-417f-9d94-d747b1cd6d93":["record"]},"attributes":{}},{"name":"{{static.20b9881e832162100f505cc0deaad3c7}}","label":"Professores UNIT Regional","reference":"sys_user_group","type":"reference","base_type":"reference","usedInstances":{"f2093d8a-5fa8-4073-8647-281e39189263":["approval_conditions"]}},{"name":"f2093d8a-5fa8-4073-8647-281e39189263.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"bd4e7452-278a-4a78-b482-f9b23657760a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.nome_do_aluno","label":"Trigger - Record Created➛Solicitação de serviços acadêmicos Record➛Nome do aluno","reference":"x_1765043_unit_alunos","reference_display":"Nome do aluno","type":"reference","base_type":"reference","parent_table_name":"x_1765043_unit_solicita_o_de_servi_os_acad_micos","column_name":"nome_do_aluno","usedInstances":{"02c0152b-b6af-44e1-84a0-1c5eebcbff27":["x_1765043_unit_alunos"]}},{"name":"Created_1.current.cadeira_solicitada","label":"Trigger - Record Created➛Solicitação de serviços acadêmicos Record➛Cadeira solicitada","reference":"x_1765043_unit_cadeiras","reference_display":"Cadeira solicitada","type":"reference","base_type":"reference","parent_table_name":"x_1765043_unit_solicita_o_de_servi_os_acad_micos","column_name":"cadeira_solicitada","usedInstances":{"02c0152b-b6af-44e1-84a0-1c5eebcbff27":["x_1765043_unit_cadeiras"]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Automação de solicitação acadêmica</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 18:19:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7646ccdd83b122100f505cc0deaad36e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Automação de solicitação acadêmica</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1765043_unit">3027b625836522100f505cc0deaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_update_name>sys_hub_flow_7646ccdd83b122100f505cc0deaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7646ccdd83b122100f505cc0deaad36e^sys_idNOT INba4640d183f122100f505cc0deaad330"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7646ccdd83b122100f505cc0deaad36e</id>
+        <name>Processo de Matrícula em cadeira acadêmica</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 18:19:47</sys_created_on>
+        <sys_id>ba4640d183f122100f505cc0deaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 18:19:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ba4640d183f122100f505cc0deaad330"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7646ccdd83b122100f505cc0deaad36e^sys_idNOT IN750b54d9833522100f505cc0deaad334,a90b54d9833522100f505cc0deaad330"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</model>
+        <model_id>7646ccdd83b122100f505cc0deaad36e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7646ccdd83b122100f505cc0deaad36e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:21</sys_created_on>
+        <sys_id>750b54d9833522100f505cc0deaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=750b54d9833522100f505cc0deaad334"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</model>
+        <model_id>7646ccdd83b122100f505cc0deaad36e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7646ccdd83b122100f505cc0deaad36e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:21</sys_created_on>
+        <sys_id>a90b54d9833522100f505cc0deaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a90b54d9833522100f505cc0deaad330"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7646ccdd83b122100f505cc0deaad36e^sys_idNOT INb90bd01d833522100f505cc0deaad3fb"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>b90bd01d833522100f505cc0deaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VawW7jNhD9FUGnFnABybItK7etk0UDpNnWybaHICUoibSJyqQrUUrcRb6mhwX6G/mxDiXKlmU5KztJ185eApgUR+8N37yhiNx8MiPsk8g8Ma+xHxGzYzIuScxxdL2YExiWahhxPFNzM8xDLEW8ME9knJKOKeKQxOaJ3TEzHKXkapGch7AIHs1X6OWmnobf98h2B32r56CUM4kSEbGASYwECglKSJwxJBKEAxyiGQtEAktDlswjvPhNR7jSSx4/P/4jjJAY+arHzyIx1LLHf8t1cxwDBqnwfTKDKYvCmHDz5Oa2Y0rghtaIG5cFQ6bgBzTAXpdYgWM73a5ldYc92x84vt0NHUwsC56rZ61GVzYkb5Urci8JDwm8iuIoIQ15jQkOP/BosXxiCttSJHaG7xP2N0QfWuo5SoBVQIq55U+kk1YMB1PBAvJhLpngxUiBs5gUUTrjlwV+lW5CcRrJMt0wkiYQj8wVZAVCI6JXU3E3Ll/4nvGcnZ6MRICj5S8sZcz8VJJEbQVlEWwKKnKTiDTO0Y/PRh/Gp+j3d9ejn87GaHx2dT0+H12fnZoPOS/0V6oiFgg1FlTQeVhq5D0jkdpAns58QNMxkyBmc/kukCwjGs5DZ6X5OOUQAy33Y0P9ReaWKbxgCSTgBjiU6clDwjy90CHHKTcE7Bz8MYI0huRIo1QFPZ/hiU4q/aWUZ54UrZ8MxwjNULJI0DT1EaRtMoFcMT5PJXK9oWcP8BZZusFaavKCg9A3pnn7oHaLRCSQFc3Rj0n1188sSRifVJK05KgkuUlxyQ60a5QZLKgmx8X1dq0A9UNltVrWVm/bVE9WU0XNunYwpVEpvNyQbJtSn9Cu5apc2JbjU9tyrT6moWNZQbdiSJugtqKVNY1XKT9lUXqkjUf1dvSoJK+uqEUt1VNdgq+WdyuhZusq13G6ShXaCkcHCK1m6c5Onr6UZzF8uq7Sp6i9cCvAYYZhRVhybGP1LSz9bko4HCakVEW+u6dzKJN8DS5eUrE+pXdDJYiK2LgU/Ifz1XPGFQFbAZxHZX5Vo29DGoLFxpti7Qs5rbc3xfRHGF9jqop0y55/Qx2vVlzZehZfrOOR3rDvUSdwIRPQ42iP+NjudfvYcwcO9WodrwZqO9yD73ktHSbb6lVN3aZtBWeNRrDsO7X+tU+R1OSiQztf6LbfblKe1efLmtza5vcBexxHABqJO9DAHt3fx8Gfk1ikPNxoChDTYNxYPWF8p3P7/XH5f7X9gQbI03zXnzgels/pciv9lMWJ+eIF+5tDbd8jPWLBh5wD/c3ve54f4C6l7sAlXbvW31ZwGjEefFdrUT5ZU/1t+3RqlGbWpOgdvue+PsBnub0WaKPZF3OHb90jwUMmi75bN+5yKjH3rOugErzcij/Oft2s6mKwdWFXgeXFPRhgHJJtJufTSnFXCTfAlA3cX6W4ra90mVxcd+8twZkISXS6CmeudRuVrTvMZYKkQDgMUSWPLTVbcNu8YTbbX0QA4/hZtxEKCkGCVvvzqTBgwoCXGIwamjUJDX9hyCkB24nAgOCFhnr7kX2dVk8nm8yXx/Y3zbsw7I07CRjOmR0XsWdfN9RK6HWOZCR0cb/vuM1XDl79SNYE7Au4D/6YtrOrZE0m9eTH9m5x6zEbP7crRbGujJa3C2+Y9asdKBtQHP7pcr0uI9VqN/rxJGIhKedewLV0pGzlTvv71YVGrN5Hh17Qt90tbjXsb3UrDegpsLIhFf/LqVO1Kq2mJtf6WEwd1r8zvJROb/8Du62xwowjAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7646ccdd83b122100f505cc0deaad36e^sys_idNOT INb10b141d833522100f505cc0deaad302,b90b141d833522100f505cc0deaad302,b90b141d833522100f505cc0deaad303,f10bd01d833522100f505cc0deaad3ff,f50bd01d833522100f505cc0deaad3fd,f90bd01d833522100f505cc0deaad3ff"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>bd4e7452-278a-4a78-b482-f9b23657760a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>b10b141d833522100f505cc0deaad302</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>02c0152b-b6af-44e1-84a0-1c5eebcbff27</ui_id>
+        <values>H4sIAAAAAAAA/9VUXU/bMBT9K8jPUZQ0pYO+Iaa+DaRt4oUx6ya+bS05dmY7pV2V/77rxC1QLRpCSGh5u8f345z7kfs9k4LN2SzH7Pwyn1VFXhSTLJtcTPNyVpT5RBSAOGUJ01AjeXooFfLeSNgGVBvALc8/zc6zacFbLT2vJzV/Dr0wKExI1yjY3Y1HX6lWG8evQaC04CimWkslLGo2v39IWAOWGHi0bL4/efK7BrmCEhWl/h7Ynt0MbF+r9EXwiPJQ5RQzVgRCWcJw61ELpHpLUA4TVoMW4I3dsbm3LQEWQdxqtTt6rKX2lJAF362Tvyn7RRb8lkjSKhzejiaPPRzgam1khbeNl0YPSE8sPhrV1vpmEBG6j0tolT90n5DWUT5sAuVAIjJaflubx6+Hggupe3XxUZkK1NEC760sW48uzAMV1pSI19A0Uq94Y81G9sHEpU5Xiox0qcwjFXVypVOoAvGUOgTpgvDPPXwHVgYVXygNBXe9ev6rDXUHHZExH0STg6usbPwVpdtgJNclhxUXmF2ODj4vnwbdb7UbX2/ol/NHm2WF2O+vaZQeBc/TqrXUKp9qU1M/zeDXdT9Pwqu41OMJogd3RslKehDQdf88m49i9cbDxJq0eDwb1CSvntEhwUKiEu4vQztcZizAN7FAvM78va4zn2X99zE3OvD8z0702d9y5Fgf/gCx3GhAkQYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>bd4e7452-278a-4a78-b482-f9b23657760a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>b90b141d833522100f505cc0deaad302</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>6dc0434b-abb9-4cbf-b9a5-596d84744cd7</ui_id>
+        <values>H4sIAAAAAAAA/+1UwWobMRD9lWXPZtn12m7iW6gx9NAEkpJLmgqtNLYFWmkraR27xl/TQ6C/4R/raFfrOEmbmhAoheo2o3kz740eutnEgsfjeAA8zU6zEcuzPO+naf9kkBWjvMj6PKcAWdyLFS0BKw0wbTjGSyprn9hs3hugDjjJElYbA8ptt3jPha0kXV+HMsywhZAc7+PxzW0vrqjBjg5MPN48uXLrCoikBUgETjSrS2wafZhgj2PZdujLju5T+n4Gxjx0J8In8crzydJeDCsHigOOm1FpoReXVHHqtFnHY2dqTKBqfqHkel+xEMq1Sku6suIb9h+kvm4GKI2FLexDEjbULUcLBheVE1q1GUcL2W1Oy7pU560Ev1uY0Vq6g93WFvtB5Sl7Ei3D2dVC311286ZCNeoCW6kZlfuIOmdEUTuw/jlAQrOUklaVUHNSGb0UDRiplMlcYpDMpL7DmVbMVUKZ553ggmgyxfykSV9TI7yIj9gGwdtGPPla+7mtjECYNJobwaR5KCy1zIjKnWHjJQSa216wazF8yQDs9OG9D3o+WHZFsnejYTrISa2EI1ZLwYSjRKMcYsEsBdGWUEY5KQXT9rmbrwJkd7/7riMOUYPa3WsbedjuR4d7nec/edbRecv6WMWPwL/ZQHD9o1ww/fDNTH/yl0wfGP1jrv+T19P+i5/dwUs39rYHPkcCKIHKz3Wa5ryNgH+xDr/rNpc/t/ZxoFf6Gkoc5SBqh/WOVtg1mAqQ3P5CcmfsMIAsw4D9j/5m7s5GaXP+f+xv+LHf/gQbiUEjiQgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>ed2da932-2ba6-4e84-af9a-300d3a70eb9d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>b90b141d833522100f505cc0deaad303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>db0b9f81-1083-417f-9d94-d747b1cd6d93</ui_id>
+        <values>H4sIAAAAAAAA/+1UwWobMRD9lWXPZtn12m7iW6kx9NAEkpJLmgqtNLZVtNJW0jp2jb+mh0B/wz/W0a7WcZI2NSFQCtVtRnoz740ec72JBY/H8QB4mp1mI5Zned5P0/7JICtGeZH1eU4BsrgXK1oCvjTAtOEYL6msfWKzeWeAOuAkS1htDCi33eI9F7aSdH0VnmGGLYTkeB+Pr296cUUNVnRg4vHm0ZVbV0AkLUAicKJZXWLR6P0EaxzLtkNfdHQf0/c9MOahOhE+iVeeT5b2Ylg5UByw3YxKC724pIpTp806HjtTYwJV83Ml1/sXC6Fcq7SkKyu+Yf1B6t/NAKWxMIV9SMKEuuFoweC8ckKrNuNoIbvJaVmX6qyV4GcLM1pLdzDb2mI9qDxlT6JlOLtc6NuLrt9UqEZdYCs1o3IfUeeMKGoH1n8HSGiGUtKqEmpOKqOXogEjlTKZSwySmdS32NOKuUoo87wTHBBNppifNOkraoQX8QHLIHjbiCdfa9+3lREIk0ZzI5g0H4VPLTOicm+x8BICzW0v2LUYPmcAdnr/3wc17y27Itmb0TAd5KRWwhGrpWDCUaJRDrFgloJoSyijnJSCafvUzZcBsrvbfdcRh6hB7e60jTxs96PDvczzHz3r6KxlfaziB+DfTCC4/kEumH74aqY/+UumD4z+Mdf/yetp/9lld/DTjb3tgc+tw738qU7TnA8+IxvUQ2UbG/gCDJf2U2sfB3qhr6HEVg6itlnvaIVdgakAye0vJHfGDg3IMjTYb/RXc3c2Spvzf7G/4mK/+QnazPPjiQgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>f10bd01d833522100f505cc0deaad3ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>f2093d8a-5fa8-4073-8647-281e39189263</ui_id>
+        <values>H4sIAAAAAAAA/+1XzW4TMRB+lWjPUdhkmybNraIqAgkqtYhLU1mOPdsYOfZie0tDlKfhgMRr9MUY73o327QsURWpFHH0eH6+mfnGP5erSPBoEo3G6QCOjgbxrB/HSRyPhyweJzBLRoejhLI46kaKLgA1DTBtOK5vqMy9YLV6bYA64KTfY7kxoNx6jftc2EzS5aeghhI2F5LjfjS5vOpGGTXo0YGJJqutLbfMgEg6A4mGJ5rlC3TaeXuCPnZFW1mfV3C34fsYuObBOxFeiFseT9yN4NaB4oDRUiotdKMFVZw6bZbRxJkcBZg0P1NyWWvMhXJlogt6a8U3dJ8MvF4KmBkLRaiXJBSoqo0WDM4yJ7QqJY7OZFU4LfOF+lBm4EsLKc2la5Q2t+gPMg/ZgygRphdz/fW8incqVJFcQCs1o7JeUeeMmOUOrO8GSChqsqBZJtQ1yYy+EYUxQln0riUueqnUXzGmFdeqR5nH3cMC0d4pyk8K8SdqhE/iPbpB43WRPPmS+7hlGgEwKXIuE0Yty4zI3DH6vIGAcN0NRJ2x1tazTadLdxue3pL+6HAYHyQkV8IRq6VgwlGiMQliwdwIoi2hjHKyEEzbhxS+CCZ3P+6+6w6HTmF190Pbjje7+1nZPY3oHz3gTtHl7s7J3jN+mHxgebEkqnQdSN5vJ3mQ7MLycfw8LA+IXhjN/8TwuN/WdD7eNBnjIWIqSSpANo/kauMhhRs7TyPpqQ91j6Q74K2Mj0P0zmkA/LtEAm2L5RZtB3ukbfxMxP13j2fWSgZINj3/rHOjWrhL5sIWLf0thxsa++LyDvAr43cl/m0qb6fVwuTkP5P/YiYfDFupAI+cXkwrLjw+2+BzeeaBPYfPwJw9Vss3l6uVddQJ1kPvR+NxH8bJoH84wEDpMB4yFnOglCdstF5fPeT/Hjw+bV7q4/s8l2CrmdmhUPVjPNi1Fi5MTL1pglGYmoN9vc2fb2j+zXcLa+VBerTpO8+xHPhjbH4ip1EJchpNppHSCqZRdxp5LeIJUYhRA8HVG4VstVqvS0luaHDQbyw31pwubaFp2Rw4kqqQ3pOUTA/yff5hL0KAzgnifvVRNG6cP1et/gjnpf2jhQxTU2dSVk4075vh3u6bgxc6OLkg9QMYrwE8KjDG3zVNV78AYZMpcZIRAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>f50bd01d833522100f505cc0deaad3fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>85542574-d9c4-4fc6-a9c0-94b20909327b</ui_id>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K1Geq8pJ2lL6Nq1C4mEwAeOFMsuxb4olJ85sp9BV/TV7QNrf6B/bdT5KYYxVCGlCWt58fe+551wfx1erUIpwEg5AkOgwGvEkSpKYkHg8iNJRkkaxSBhAFPbCguWAmQa4NgLXC6YqH1itPhpgDgSN+rwyBgq3XuO+kLZUbHnZpmGE30glcD+cXF33wpIZRHRgwsnqyZZblkAVS0Fh4VTzKkfQ4HiKGPuy7arPOrpP6fseuBYtOpU+iFueT0R6Idw5KARgu4wpC70wZ4VgTptlOHGmwgCqFqeFWm4zbmThGqU5u7PyO+IPiM/LAKXxdgrbJW0n1A1HSw6npZO6aCKOpaqbnFZVXpw0EvxsIWOVcjuzrSziQekpexINw+z8Rt+edf2OZFGra9kqzZnarphzRqaVA+uPAxTUQ8lZWcpiTkujF7IuRip5f65w0c+UvsWeVs6LPuOedx8HxPpHGJ/W4UtmpBfxCWGweF2Lp98q37eR0RKmteZaMK0PClMtN7J0HxB4AS3Nda+1azp8yQD88OG8dzAfLHtHo4PRkAwSWhXSUauV5NIxqlEOtWAWkmpLGWeC5pJr+7ubz9uSzf3mhw4EBHXV5l7bwJdtfnZ1r/P8hWcdnDSs91X8qPgPE2hd/yjWmn74ZqYf/yPTt4zemev/5nUSv/iz2znp2t52x+fW4X95VhGSiOgrs55cLXBudFU28dWss/YsnMzCz0ZnYK02YIMvJ8cXwRnMUSJTs7A3a3DrvJikh+NxBOMkjkZxREg2JEPOiQDGRMIP6nS7tPhb3TP/mSfjvdF/5V2HHPk7CBrZvb1PvQM4kqCEfcYG3WVvG9BF22D7yr3ZjY9GpP7+P3Zv+Nhd/wKltJZDnQkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>f90bd01d833522100f505cc0deaad3ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>a8a44c6c-c12c-4d6e-9c25-1c795190f22f</ui_id>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPxthxkrV5GwuBPayFdvSlK0KWbhKBLLmSnDYL+TV7KOxv5I/typbTtF27UAJjML3pfpx7ztVB1+tI8GgcDYCn2Wk2YnmW5/007Z8MsmKUF1mf5xQgi+JI0RKw0gDThuN9SWXtA+v1JwPUASdZwmpjQLnNBvNc2ErS1VUowwhbCMkxH42vb+KoogYRHZhovH6WcqsKiKQFSGycaFaXCNr7PEGMQ9l23Rcd3ef0/Qy884BOhA9iyvPJ0jiCeweKA46bUWkhjkqqOHXarKKxMzUGUDU/V3K1q1gI5VqlJb234jviD1JfNwOUxsIWdlcSNtQtRwsG55UTWrURRwvZbU7LulRnrQS/W5jRWrq93dYW8aDylD2JluHscqHvLrp5U6EadYGt1IzK3Y06Z0RRO7D+OUBCs5SSVpVQc1IZvRRNM1Ipk7nESzKT+g5nWjFXCWWed4ILoskU45MmfEWN8CK+IAw2bxrx5Lb2c1sZgTBpNDeCSfNQWGqZEZX7iMBLCDQ3cbBrMXzLAOz08b33MB8te0+yD6NhOshJrYQjVkvBhKNEoxxiwSwF0ZZQRjkpBdP2pZsvQ8v2YftD9zj0mq7tg7Y937b92fW9z/NfPeveWcv6UMVPml/ZQHD9k1gw/fBopj/5S6YPjP4x1//J62n/zc9u76Ube9s9nyMBlEDltzpNc7TaLabxo35p59cL3+lfKBHeQa8dEB+spAOYCpDc/kZaZ+AwgCzDgN3PfTQXZ6O0Of8/8CN+4De/AL/PIShxCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7646ccdd83b122100f505cc0deaad36e^sys_idNOT IN350b141d833522100f505cc0deaad303,b90b141d833522100f505cc0deaad300"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">710b141d833522100f505cc0deaad303</block>
+        <comment/>
+        <connected_to>bd4e7452-278a-4a78-b482-f9b23657760a</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>350b141d833522100f505cc0deaad303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>ed2da932-2ba6-4e84-af9a-300d3a70eb9d</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b10b141d833522100f505cc0deaad300</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Automação de solicitação acadêmica">7646ccdd83b122100f505cc0deaad36e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:22</sys_created_on>
+        <sys_id>b90b141d833522100f505cc0deaad300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:22</sys_updated_on>
+        <ui_id>bd4e7452-278a-4a78-b482-f9b23657760a</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWdDDcmTfghYBCrQN0AS5tIGwIimbKEWqJGXHNfzvXerhGI2DGEWOvYmzy92Z5Sy0J7p1Tevsvb62VqwUWX5/DIhQHsPvPRGMLEkVQRUvaEzTZJ4mUZTks7icp2WcsBQ4pCQgCmqOmVQrJpzQquiAgGxAtj5wxyf4pfSk0mYCjdEbYBrjTNhGwu7hjTS6FpIZPvBrwGB1xw1Z7v8KuV3DCwkll76aM0Kt8PqlKsaLH0YZk88d8ro+3w9xO3bShnlacRQQ/uS4YhxbVyAtD0gNioHTZndEDAd2q+QzsBbKYTnik5+s+I21kyzziRVHjZT3weOxGObXw3StBeW3jSfYIw5KOdyhWra1+trr8JPnFbTSjZNHpLVYjzeetGcxUKru1nr7bWx4I1QncAhKTUEeT+BwDGXruPUPwyWvsVBRQ9PgcAr/mqK7jFzqcCXxEFZSb7Gp914I1BMPcUYQ3iD+sYMfwAiv4guWwcs9zRKsoEXnUyznDEo4dGMpfrWeUC9wkFL008AES41o3DX22fCB9SEYTL6ArMriKDtvj9n8jAlO/L3fV0m0SFkO06yCfDqLrtJpPp9dTZM85ukizhdYNkQN3tOysA4cPxx+tFGUsh5Fp7zYh/cq+x77c8GAXuzP+aG9sjTJG0vjn/nCnYmi6P/SnC6NsEVv/kFb1/yfd+bRG7/vYHvfME6FRSL3Hvs0/j98YIcGEPQU2mrz00t4xg5/AESQ9RCJBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7646ccdd83b122100f505cc0deaad36e^sys_idNOT IN350b54d9833522100f505cc0deaad336,b90b54d9833522100f505cc0deaad333"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7646ccdd83b122100f505cc0deaad36e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:21</sys_created_on>
+        <sys_id>350b54d9833522100f505cc0deaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1765043_unit">3027b625836522100f505cc0deaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7646ccdd83b122100f505cc0deaad36e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 19:50:21</sys_created_on>
+        <sys_id>b90b54d9833522100f505cc0deaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1765043_unit">3027b625836522100f505cc0deaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 19:50:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7646ccdd83b122100f505cc0deaad36e"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7646ccdd83b122100f505cc0deaad36e"/>
+</record_update>

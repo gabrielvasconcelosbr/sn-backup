@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>New Tab 1</label>
+        <language>en</language>
+        <name>pa_tabs</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 23:34:32</sys_created_on>
+        <sys_id>e79188be836522100f505cc0deaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_package display_value="UNIT" source="x_1765043_unit">3027b625836522100f505cc0deaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
+        <sys_update_name>sys_translated_e79188be836522100f505cc0deaad3d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 23:34:32</sys_updated_on>
+        <value>239144be836522100f505cc0deaad34eNew Tab 1</value>
+    </sys_translated>
+</record_update>
