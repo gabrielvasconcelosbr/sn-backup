@@ -18,14 +18,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles/>
+        <roles>x_1765043_unit.UNIT_admin,x_1765043_unit.UNIT_professor,x_1765043_unit.UNIT_aluno,x_1765043_unit.UNIT_usuario</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-22 17:56:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5cf0162f836122100f505cc0deaad310</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Cadeiras</sys_name>
         <sys_overrides/>
         <sys_package display_value="UNIT" source="x_1765043_unit">3027b625836522100f505cc0deaad358</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="UNIT">3027b625836522100f505cc0deaad358</sys_scope>
         <sys_update_name>sys_app_module_5cf0162f836122100f505cc0deaad310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-22 17:56:25</sys_updated_on>
+        <sys_updated_on>2025-05-30 16:21:53</sys_updated_on>
         <timeline_page/>
         <title>Cadeiras</title>
         <uncancelable>false</uncancelable>
