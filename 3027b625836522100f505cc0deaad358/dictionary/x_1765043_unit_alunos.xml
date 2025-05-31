@@ -14,10 +14,10 @@
         </element>
         <element choice="1" label="Ênfase" max_length="40" name="enfase" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Inteligência Artificial"/>
-                <element inactive_on_update="false" label="Desenvolvimento Web"/>
-                <element inactive_on_update="false" label="Data Science"/>
-                <element inactive_on_update="false" label="Segurança da Informação"/>
+                <element inactive_on_update="false" label="Inteligência Artificial" sequence="1" value="inteligencia_artificial"/>
+                <element inactive_on_update="false" label="Desenvolvimento Web" sequence="2" value="desenvolvimento_web"/>
+                <element inactive_on_update="false" label="Data Science" sequence="3" value="data_science"/>
+                <element inactive_on_update="false" label="Segurança da Informação" sequence="4" value="seguranca_da_informacao"/>
             </choice>
         </element>
         <element choice="1" label="Turno" max_length="40" name="turno" type="choice">

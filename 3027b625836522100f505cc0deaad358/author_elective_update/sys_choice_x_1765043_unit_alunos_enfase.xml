@@ -23,16 +23,16 @@
             <label>Inteligência Artificial</label>
             <language>en</language>
             <name>x_1765043_unit_alunos</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-05-29 18:30:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-29 18:30:44</sys_updated_on>
-            <value/>
+            <sys_updated_on>2025-05-30 19:14:02</sys_updated_on>
+            <value>inteligencia_artificial</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -42,16 +42,16 @@
             <label>Desenvolvimento Web</label>
             <language>en</language>
             <name>x_1765043_unit_alunos</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-05-29 18:30:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-29 18:30:15</sys_updated_on>
-            <value/>
+            <sys_updated_on>2025-05-30 19:14:08</sys_updated_on>
+            <value>desenvolvimento_web</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -61,16 +61,16 @@
             <label>Data Science</label>
             <language>en</language>
             <name>x_1765043_unit_alunos</name>
-            <sequence/>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-05-29 18:30:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-29 18:30:23</sys_updated_on>
-            <value/>
+            <sys_updated_on>2025-05-30 19:14:13</sys_updated_on>
+            <value>data_science</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -80,16 +80,16 @@
             <label>Segurança da Informação</label>
             <language>en</language>
             <name>x_1765043_unit_alunos</name>
-            <sequence/>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-05-29 18:30:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-29 18:30:32</sys_updated_on>
-            <value/>
+            <sys_updated_on>2025-05-30 19:14:29</sys_updated_on>
+            <value>seguranca_da_informacao</value>
         </sys_choice>
     </sys_choice>
 </record_update>
